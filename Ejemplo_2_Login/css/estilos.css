@@ -1,0 +1,65 @@
+body{
+	background: rgba(50,212,252,1);
+background: -moz-linear-gradient(left, rgba(50,212,252,1) 0%, rgba(224,133,247,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(50,212,252,1)), color-stop(100%, rgba(224,133,247,1)));
+background: -webkit-linear-gradient(left, rgba(50,212,252,1) 0%, rgba(224,133,247,1) 100%);
+background: -o-linear-gradient(left, rgba(50,212,252,1) 0%, rgba(224,133,247,1) 100%);
+background: -ms-linear-gradient(left, rgba(50,212,252,1) 0%, rgba(224,133,247,1) 100%);
+background: linear-gradient(to right, rgba(50,212,252,1) 0%, rgba(224,133,247,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#32d4fc', endColorstr='#e085f7', GradientType=1 );
+}
+
+.centrar{
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+.formulario{
+	background-color: #FFFFFF;
+	padding-bottom: 20px;
+}
+
+.fuentePP{
+	font-family: Verdana;
+	font-size: 25px;
+	font-weight: bold;
+	font-style: italic;
+	text-align: right;
+	padding-left: 15%;
+}
+.desPP{
+	font-size: 20px;
+}
+
+.subtitulo{
+	font-size: 50px;
+	color: #12c0fa;
+	font-weight: 100;
+	margin-bottom: 20px;
+}
+.info{
+	font-size: 20px;
+    color: #a0a0a0;
+    font-weight: 100;
+}
+.precio{
+	font-size: 32px;
+    color: #252a2b;
+    font-weight: 100;
+}
+.nPrecio{
+	font-size: 30px;
+    color: #252a2b;
+    font-weight: 400;
+}
+.marginFormDerecho{
+	margin-top: 20px;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	.fuentePP{
+		padding-left: 2%;
+	}
+}
